@@ -77,7 +77,7 @@ def app():
     # heading
     h1 = jp.QDiv(a=wp, text="Analysis of Course Reviews", classes="text-h3 text-center q-pa-md")
     # paragraph
-    p1 = jp.QDiv(a=wp, text="These graphs represent course review analysis.")
+    p1 = jp.QDiv(a=wp, text="These graphs represent course review analysis.", classes="q-pa-md")
     # highchart
     hc = jp.HighCharts(a=wp, options=chart_def)
     hc.options.title.text = "Average Rating by Day"
