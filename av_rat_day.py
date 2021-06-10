@@ -20,7 +20,7 @@ chart_def = """
         text: 'Atmosphere Temperature by Altitude'
     },
     subtitle: {
-        text: 'According to the Standard Atmosphere Model'
+        text: 'As of April 2021'
     },
     xAxis: {
         reversed: false,
