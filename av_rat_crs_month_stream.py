@@ -111,7 +111,7 @@ def app():
     # highchart
     hc = jp.HighCharts(a=wp, options=chart_def)
     hc.options.xAxis.categories = list(month_average_crs.index)
-    hc.options.title.text = "Average Rating of Courses by Week"
+    hc.options.title.text = "Average Rating of Courses by Month"
 
     hc_data = [{"name":v1, "data":[v2 for v2 in month_average_crs[v1]]} for v1 in month_average_crs.columns]
 
